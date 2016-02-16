@@ -7,7 +7,7 @@ find_path(CASSANDRA_INCLUDE_DIRS
   DOC "Cassandra include directory")
 
 find_library(CASSANDRA_LIBRARIES
-  NAMES cassandra uv
+  NAMES cassandra
   PATHS ${CASSANDRA_ROOT} ENV CASSANDRA_ROOT
   PATH_SUFFIXES lib
   DOC "Cassandra library directory")
